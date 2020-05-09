@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Thank you for creating an account</title>
+</head>
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.main_container {
+    width: 700px;
+    height: auto;
+    padding: 20px;
+    margin: 8% auto 0;
+    text-align: center;
+}
+
+h1 {
+    color: #D5573B;
+    letter-spacing: 1.5px;
+    margin-bottom: 50px
+}
+
+p {
+    line-height: 25px;
+    margin: 5px;
+}
+
+.message {
+    margin-bottom: 50px;
+}
+
+#create_account {
+    width: 180px;
+    height: 40px;
+    margin: 0;
+    background-color: #D5573B;
+    color: #fff;
+    letter-spacing: 1px;
+    border-radius: 5px;
+    border: 0.5px;
+    font-size: 14px;
+    display: inline-block;
+    float: center;
+}
+
+@media all and (max-width: 500px) {
+    * {
+        width: auto;
+        height: auto;
+    }
+
+    .main_container {
+        width: 320px;
+        height: auto;
+        margin-top: 50px;
+    }
+}
+
+</style>
+<body>
+    <div class = "main_container">
+
+            <h1>Thank you for creating an account.</h1>
+            <div class="message">
+                    <p>An account activation link was sent to your email address.</p>
+                    <p>Click the link in the email to activate and complete your account verification. If you do not receive an email within 5 minutes, please click the re-send email activation link below</p>
+            </div>
+
+            <span><button type="submit" id="create_account">Resend Email</button></span>
+
+    </div>
+</body>
+</html>

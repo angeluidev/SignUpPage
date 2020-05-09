@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.div_main {
+    width: 515px;
+    height: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 1px solid #D8DAD3;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 8% auto 0;
+    text-align: left;
+    background: #fff;
+    opacity: 0.9;
+}
+
+.div_form {
+    /* border: solid 1px; */
+    width: 510px;
+}
+
+h1 {
+    color: #D5573B;
+    letter-spacing: 1.5px;
+}
+
+#header {
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+input {
+    border: 1px solid #D8DAD3;
+    border-radius: 5px;
+    padding: 0 10px;
+    width: 485px;
+    height: 40px;
+    font-size: 14px;
+    outline: none;
+}
+
+/* First and Last Name */
+
+.error_message {
+    margin: 4px 0 20px 10px;
+    font-size: 12px;
+    color: red;
+}
+
+/* Password */
+.bottom {
+    width: 205px;
+    height: 40px;
+    margin: 0 0 10px 0;
+}
+/* Password Guidelines */
+p {
+    font-size: 13px;
+    margin: 0 0 50px 10px;
+}
+/* Create Button */
+#create_account {
+    width: 100px;
+    height: 40px;
+    margin: 0;
+    background-color: #D5573B;
+    color: #fff;
+    letter-spacing: 1.2px;
+    border-radius: 5px;
+    border: 0.5px;
+    font-size: 14px;
+    display: inline-block;
+    float: right;
+}
+/* Terms and Conditions */
+#checkbox {
+    margin-left: 5px;
+    height: auto;
+    width: auto;
+}
+
+label {
+    font-size: 14px;
+    padding: 10px;
+}
+/* Eye icon */
+.fa {
+    margin: 15px 0 0 20px;
+}
+
+.eye {
+    position: absolute;
+}
+
+#hide1 {
+    display: none;
+}
+
+@media all and (max-width: 500px) {
+    .div_main {
+        width: 250px;
+        height: auto;
+        border: none;
+    }
+
+    .div_form {
+        width: auto;
+    }
+    
+    input {
+        border: 1px solid #D8DAD3;
+        border-radius: 5px;
+        padding: 0 10px;
+        width: 250px;
+        height: 40px;
+        font-size: 12px;
+    }
+
+    p, label {
+        width: 250px;
+        font-size: 11px;
+    }
+
+    #create_account {
+        width: 100px;
+        height: 40px;
+        margin: 50px 0 30px 0;
+        background-color: #D5573B;
+        color: #fff;
+        letter-spacing: 1.2px;
+        border-radius: 5px;
+        border: 0.5px;
+        font-size: 14px;
+        display: block;
+    }
+    
+}
